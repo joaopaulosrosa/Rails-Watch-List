@@ -18,4 +18,22 @@
     <% end %>
 
   </div>
+
+</div>
+
+<div class="navbar" id="nbshow">
+  <h5><%= @list.name %>'s list reviews:</h5>
+  <h5><%= link_to 'add a review', new_list_review_path(@list) %></h5>
+</div>
+
+<div class="content">
+
+  <div class="bookmark-grid">
+      <% @list.reviews.each do |review| %>
+        <div class="bookmark-card">
+          <h2><%= review.rating %></h2>
+          <p><%= review.comment %></p>
+        </div>
+      <% end %>
+  </div>
 </div>

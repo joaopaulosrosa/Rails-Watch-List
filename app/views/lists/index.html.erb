@@ -7,11 +7,11 @@
 </div>
 
 <div class="content">
-
+  <div class="bookmark-grid">
     <% @lists.each do |list| %>
       <div class="list-card">
         <h2><%= link_to list.name, list_path(list) %></h2>
       </div>
     <% end %>
-
+  </div>
 </div>

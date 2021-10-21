@@ -1,11 +1,11 @@
 <div class="navbar" id="nbcontent">
-  <h5>new bookmark</h5>
+  <h5>new review</h5>
 </div>
 
 <div class="content">
-  <%= simple_form_for [@list, @bookmark] do |f| %>
-    <%= f.association :movie %>
+  <%= simple_form_for [@list, @review] do |f| %>
     <%= f.input :comment %>
+    <%= f.input :rating %>
     <%= f.submit %>
   <% end %>
 </div>
