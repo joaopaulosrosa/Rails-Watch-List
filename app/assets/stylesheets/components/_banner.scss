@@ -1,0 +1,17 @@
+.banner {
+  margin: 0 auto;
+  text-align: center;
+  width: 1000px;
+  height: 450px;
+  padding: 200px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.85)), url('https://lwlies.com/wp-content/uploads/2016/04/couple-wearing-3d-glasses-1108x0-c-default.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  h1 {
+    color: white;
+
+  }
+}

@@ -11,6 +11,11 @@
   </head>
 
   <body>
+  <div class="navbar">
+    <h5><%= link_to 'my lists', lists_path %></h5>
+    <h5>|</h5>
+    <h5><%= link_to 'add list', new_list_path %></h5>
+  </div>
     <%= yield %>
   </body>
 </html>
